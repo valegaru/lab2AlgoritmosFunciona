@@ -16,7 +16,8 @@ export const workers: DataShape[] = [
 	{
 		id: 1,
 		name: 'Maria Lopez',
-		image: 'https://www.pexels.com/es-es/foto/mujer-en-camisa-con-cuello-774909/',
+		image:
+			'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 		age: 32,
 		gender: 'Female',
 		jobDetails: {
@@ -29,7 +30,8 @@ export const workers: DataShape[] = [
 	{
 		id: 2,
 		name: 'Emily Johnson',
-		image: 'https://www.pexels.com/es-es/foto/mujer-sonriendo-a-la-camara-1181686/',
+		image:
+			'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 		age: 28,
 		gender: 'Female',
 		jobDetails: {
@@ -42,7 +44,8 @@ export const workers: DataShape[] = [
 	{
 		id: 3,
 		name: 'John Smith',
-		image: 'https://www.pexels.com/es-es/foto/hombre-de-chaqueta-roja-1681010/',
+		image:
+			'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 		age: 35,
 		gender: 'Male',
 		jobDetails: {
@@ -55,7 +58,8 @@ export const workers: DataShape[] = [
 	{
 		id: 4,
 		name: 'Michael Brown',
-		image: 'https://www.pexels.com/es-es/foto/hombre-brazos-cruzados-1516680/',
+		image:
+			'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 		age: 40,
 		gender: 'Male',
 		jobDetails: {
@@ -68,7 +72,8 @@ export const workers: DataShape[] = [
 	{
 		id: 5,
 		name: 'Sophia Martinez',
-		image: 'https://www.pexels.com/es-es/foto/mujer-llevando-negro-correa-espagueti-top-415829/',
+		image:
+			'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 		age: 27,
 		gender: 'Female',
 		jobDetails: {
@@ -81,7 +86,8 @@ export const workers: DataShape[] = [
 	{
 		id: 6,
 		name: 'Isabella Garcia',
-		image: 'https://www.pexels.com/es-es/foto/mujer-cerca-de-casa-2804282/',
+		image:
+			'https://images.pexels.com/photos/2804282/pexels-photo-2804282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 		age: 31,
 		gender: 'Female',
 		jobDetails: {
@@ -108,7 +114,8 @@ export const workers: DataShape[] = [
 	{
 		id: 8,
 		name: 'Ethan Wilson',
-		image: 'https://www.pexels.com/es-es/foto/camisa-de-vestir-azul-para-hombre-1043471/',
+		image:
+			'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 		age: 29,
 		gender: 'Male',
 		jobDetails: {
@@ -121,7 +128,8 @@ export const workers: DataShape[] = [
 	{
 		id: 9,
 		name: 'Olivia Anderson',
-		image: 'https://www.pexels.com/es-es/foto/riendo-a-mujer-formal-en-elegante-chaqueta-5905902/',
+		image:
+			'https://images.pexels.com/photos/5905902/pexels-photo-5905902.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 		age: 36,
 		gender: 'Female',
 		jobDetails: {
@@ -134,7 +142,8 @@ export const workers: DataShape[] = [
 	{
 		id: 10,
 		name: 'Emma Brown',
-		image: 'https://www.pexels.com/es-es/foto/moda-mujer-modelo-camisa-19130891/',
+		image:
+			'https://images.pexels.com/photos/19130891/pexels-photo-19130891/free-photo-of-moda-mujer-modelo-camisa.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 		age: 30,
 		gender: 'Female',
 		jobDetails: {
@@ -148,7 +157,7 @@ export const workers: DataShape[] = [
 		id: 11,
 		name: 'James Martinez',
 		image:
-			'https://www.pexels.com/es-es/foto/fotografia-de-hombre-con-camisa-blanca-con-reloj-analogico-negro-redondo-697509/',
+			'https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 		age: 25,
 		gender: 'Male',
 		jobDetails: {
@@ -161,7 +170,8 @@ export const workers: DataShape[] = [
 	{
 		id: 12,
 		name: 'Alexander Rodriguez',
-		image: 'https://www.pexels.com/es-es/foto/hombre-vestido-con-camiseta-azul-con-cuello-circular-2379005/',
+		image:
+			'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 		age: 38,
 		gender: 'Male',
 		jobDetails: {
@@ -174,7 +184,8 @@ export const workers: DataShape[] = [
 	{
 		id: 13,
 		name: 'Ava Wilson',
-		image: 'https://www.pexels.com/es-es/foto/mujer-retrato-morena-confianza-14541208/',
+		image:
+			'https://images.pexels.com/photos/14541208/pexels-photo-14541208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 		age: 26,
 		gender: 'Female',
 		jobDetails: {
@@ -187,7 +198,8 @@ export const workers: DataShape[] = [
 	{
 		id: 14,
 		name: 'Mia Perez',
-		image: 'https://www.pexels.com/es-es/foto/joven-retrato-adolescente-sonreir-5878568/',
+		image:
+			'https://images.pexels.com/photos/5878568/pexels-photo-5878568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 		age: 29,
 		gender: 'Female',
 		jobDetails: {
@@ -200,7 +212,7 @@ export const workers: DataShape[] = [
 	{
 		id: 15,
 		name: 'Daniel Thompson',
-		image: 'https://www.pexels.com/es-es/foto/hombre-sentado-junto-a-la-pared-purpura-2232981/',
+		image: 'https://images.pexels.com/photos/2232981/pexels-photo-2232981.jpeg',
 		age: 34,
 		gender: 'Male',
 		jobDetails: {

@@ -6,7 +6,7 @@ export enum Attribute { //enum es algo de ts, permiten definir un conjunto de co
 	'gender' = 'gender',
 	'area' = 'area',
 	'position' = 'position',
-	'timeInCompany' = 'timeInCompany',
+	'timeincompany' = 'timeincompany',
 	'experience' = 'experience',
 }
 
@@ -18,7 +18,7 @@ class Trabajador extends HTMLElement {
 	gender?: string;
 	area?: string;
 	position?: string;
-	timeInCompany?: number; // years
+	timeincompany?: number; // years
 	experience?: number; // years
 
 	//igual que en js
@@ -37,7 +37,7 @@ class Trabajador extends HTMLElement {
 			gender: null,
 			area: null,
 			position: null,
-			timeInCompany: null,
+			timeincompany: null,
 			experience: null,
 		};
 		return Object.keys(attrs); // return ['image','name', 'uid', ....]; (es otra forma m[as simple de hacerlo pero a que esta contando es mas rigurosa])
@@ -55,8 +55,8 @@ class Trabajador extends HTMLElement {
 				this.age = newValue ? Number(newValue) : undefined; // ? es sino. si existe un nuevo valor que se convierta en NewValue pero si no lo hay, dejar NewValue undefined
 				break;
 
-			case Attribute.timeInCompany:
-				this.timeInCompany = newValue ? Number(newValue) : undefined;
+			case Attribute.timeincompany:
+				this.timeincompany = newValue ? Number(newValue) : undefined;
 				break;
 
 			case Attribute.experience:
@@ -88,7 +88,7 @@ class Trabajador extends HTMLElement {
         <p><b>Gender:</b> ${this.gender}</p>
         <h3><b>Area:</b> ${this.area}</h3>
         <h3><b>Position:</b> ${this.position}</h3>
-        <p><b>Time in this company:</b> ${this.timeInCompany} years</p>
+        <p><b>Time in this company:</b> ${this.timeincompany} years</p>
         <p><b>Experience:</b> ${this.experience} years</p>
         </section>
         `;
