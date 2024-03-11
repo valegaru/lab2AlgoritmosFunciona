@@ -82,14 +82,14 @@ class Trabajador extends HTMLElement {
 			this.shadowRoot.innerHTML = `
       <section>
         <img src="${this.image}"><img>
-        <h1>${this.name}</h1>
-        <p>${this.uid}</p>
-        <p>${this.age}</p>
-        <p>${this.gender}</p>
-        <h2>${this.area}</h2>
-        <h3>${this.position}</h3>
-        <p>${this.timeInCompany}</p>
-        <p>${this.experience}</p>
+        <h1><b>Name:</b> ${this.name}</h1>
+        <p><b>Id:</b> ${this.uid}</p>
+        <p><b>Age:</b> ${this.age} years old</p>
+        <p><b>Gender:</b> ${this.gender}</p>
+        <h3><b>Area:</b> ${this.area}</h3>
+        <h3><b>Position:</b> ${this.position}</h3>
+        <p><b>Time in this company:</b> ${this.timeInCompany} years</p>
+        <p><b>Experience:</b> ${this.experience} years</p>
         </section>
         `;
 		}

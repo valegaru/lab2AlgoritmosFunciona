@@ -9,7 +9,9 @@ class AppContainer extends HTMLElement {
 		super();
 		this.attachShadow({ mode: 'open' });
 
-		workers.forEach((user) => {
+		const filteredWorkers = workers.filter((user) => user.id % 2 === 0);
+
+		this.trabajadores = filteredWorkers.map((user) => {
 			const trabajadorCard = this.ownerDocument.createElement('my-trabajador') as MyTrabajador;
 			trabajadorCard.setAttribute(Attribute.image, user.image);
 			trabajadorCard.setAttribute(Attribute.name, user.name);
@@ -20,7 +22,7 @@ class AppContainer extends HTMLElement {
 			trabajadorCard.setAttribute(Attribute.position, user.jobDetails.position);
 			trabajadorCard.setAttribute(Attribute.timeInCompany, String(user.jobDetails.timeInCompany));
 			trabajadorCard.setAttribute(Attribute.experience, String(user.jobDetails.experience));
-			this.trabajadores.push(trabajadorCard);
+			return trabajadorCard;
 		});
 	}
 
